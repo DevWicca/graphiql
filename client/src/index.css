@@ -30,7 +30,9 @@ body {
   cursor: pointer;
   color: #880E4F;
 }
-
+.flex{
+  display: flex;
+}
 form{
   background: #fff;
   padding: 20px;
@@ -71,7 +73,6 @@ form button{
 }
 
 #book-details{
-  position: fixed;
   top: 0;
   right: 0;
   width: 40%;

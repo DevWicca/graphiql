@@ -26,7 +26,7 @@ class BookList extends Component {
     render() {
         // console.log(this.props.data)
         return (
-            <div>
+            <div className="flex">
                 <ul id="book-list">
                     {this.displayBooks()}
                 </ul>

@@ -8,9 +8,9 @@ class BookDetails extends Component {
         if(book){
             return(
                 <div>
-                    <h2>{book.name}</h2>
-                    <p>{book.genre}</p>
-                    <p>{book.author.name}</p>
+                    <h2><strong>Book Name: </strong>{book.name}</h2>
+                    <p><strong>Book Genre: </strong>{book.genre}</p>
+                    <p><strong>Author Name: </strong>{book.author.name}</p>
                     <p>All Books by this Author</p>
                     <ul className="othor-books">
                     {

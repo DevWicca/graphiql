@@ -20,6 +20,6 @@ app.use('/graphql',graphqlHTTP({
     graphiql:true
 }))
 
-app.listen(3000,()=>{
+app.listen(3001,()=>{
     console.log(`Server Online We Are In Lets Go *_* `)
 })
